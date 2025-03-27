@@ -1,0 +1,64 @@
+/* Basic Reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.skill {
+    background-color: #eee;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#contact {
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skill-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill {
+        margin: 5px auto;
+        width: 90%;
+    }
+}
